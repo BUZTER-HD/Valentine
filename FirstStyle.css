@@ -99,7 +99,7 @@
   touch-action: none;
   position: relative;
   border: none;
-  margin: 0px 0px 0px 40px;
+  margin: 0px 0px 0px 20%;
 }
 
 .btnNo {
@@ -113,7 +113,7 @@
   user-select: none;
   /* display: flex; */
   justify-content: center; 
-  margin: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 20%;
   font-weight: 600;
   border-radius: 5px;
   touch-action: none;
@@ -123,7 +123,7 @@
 
 
  img{
-    width: 108%;
+    width: 105%;
     height: 150%;
  }
  @media screen and (min-width: 760px){
@@ -131,4 +131,5 @@
     img{width: 800px;}
 
  }
+
 
