@@ -35,61 +35,38 @@
     }
 
     .myButtons{  
-      padding: 50px 20% 0 35%;
+     display: flex;
+     justify-self: center;
+     align-items: center;
+     /* width: 100vw; */
+     /* background-color: #d8d8d8; */
+     flex-wrap: wrap;
+     /* flex-direction: column; */
+
+
     }
+    @media screen and (max-width: 600px){
+    .btnNo{
+        font-size: 0.9rem;
+        margin: 5px;
+    }
+     .btnYes{
+        font-size: 0.9rem;
+        margin: 5px;
+    }
+   
+    }
+
+ 
     a{
       text-decoration: none;
       color: #ececec;
-    }
-.myButtons{  
-      padding: 10px ;
-      /* background-color: #080808; */
-    }
-    @media screen and (min-width: 760px){
-    
-    .myButtons{  
-      padding: 50px 20% 0 35%;
-    }
-    .btnYes {
-        background-color: #2d7f2f;
-        font-family: "Verdana", sans-serif;
-        padding: 5px 10px;
-        font-size: 18px;
-        color: #ececec;
-        cursor: pointer;
-        width: fit-content;
-        user-select: none;
-        font-weight: 600;
-        border-radius: 5px;
-        touch-action: none;
-        position: relative;
-        border: none;
-    }
-
-    .btnNo {
-        background-color: #8d2c2c;
-        font-family: "Verdana", sans-serif;
-        padding: 5px 15px;
-        font-size: 18px;
-        color: #ececec;
-        cursor: pointer;
-        width: fit-content;
-        user-select: none;
-        /* display: flex; */
-        justify-content: center; 
-        margin: 0px 80px;
-        font-weight: 600;
-        border-radius: 5px;
-        touch-action: none;
-        position: relative;
-        border: none;
-}
     }
 .btnYes {
   background-color: #2d7f2f;
   font-family: "Verdana", sans-serif;
   padding: 5px 10px;
-  font-size: 18px;
+  font-size: 1rem;
   color: #ececec;
   cursor: pointer;
   width: fit-content;
@@ -97,39 +74,46 @@
   font-weight: 600;
   border-radius: 5px;
   touch-action: none;
-  position: relative;
+  /* position: center; */
   border: none;
-  margin: 0px 0px 0px 20%;
+  margin: 10px;
+  flex-shrink: 0;
 }
 
 .btnNo {
   background-color: #8d2c2c;
   font-family: "Verdana", sans-serif;
   padding: 5px 15px;
-  font-size: 18px;
+  font-size: 1rem;
   color: #ececec;
   cursor: pointer;
   width: fit-content;
   user-select: none;
   /* display: flex; */
-  justify-content: center; 
-  margin: 0px 0px 0px 20%;
+  /* justify-content: center;  */
+  margin: 10px;
   font-weight: 600;
   border-radius: 5px;
   touch-action: none;
   position: relative;
   border: none;
+  flex-shrink: 0;
+  
 }
-
-
  img{
-    width: 105%;
-    height: 150%;
- }
- @media screen and (min-width: 760px){
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
     
-    img{width: 800px;}
+ 
+ @media screen and (min-width: 600px){
+    
+    img{width: 79%; }
+        
+
 
  }
-
-
