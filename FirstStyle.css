@@ -38,8 +38,8 @@
      display: flex;
      justify-self: center;
      align-items: center;
-     width: 100vw;
-     background-color: #d8d8d8;
+     /* width: 100vw; */
+     /* background-color: #d8d8d8; */
      flex-wrap: wrap;
      /* flex-direction: column; */
     padding: auto;
@@ -119,3 +119,4 @@
 
 
  }
+
