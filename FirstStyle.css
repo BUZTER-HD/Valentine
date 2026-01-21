@@ -4,6 +4,12 @@
       background: #FCD7F1;
       color: #333;
       line-height: 1.6;
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      
+
     }
     .container {
       max-width: 700px;
@@ -36,13 +42,13 @@
 
     .myButtons{  
      display: flex;
-     justify-self: center;
+     justify-content: center;
      align-items: center;
-     /* width: 100vw; */
+     /* width: 90vw; */
      /* background-color: #d8d8d8; */
      flex-wrap: wrap;
      /* flex-direction: column; */
-    padding: auto;
+     padding: auto;
 
 
     }
@@ -118,7 +124,4 @@
         
 
 
-
  }
-
-
