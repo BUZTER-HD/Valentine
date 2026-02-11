@@ -1,15 +1,37 @@
     body {
       margin: 0;
       font-family: Georgia, serif;
-      background: #ffffff;
-      color: #333;
+      background: #f4f1e8;
+      color: #191919;
       line-height: 1.6;
+      overflow-x: hidden;
     }
     .container {
       max-width: 700px;
       margin: 0 auto;
-      padding: 40px 20px;
+      padding: 50px;
     }
+    section{
+    padding: 50px;
+    background: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    .yey{
+    background: linear-gradient(135deg, #ff9e9e, #ffb6b6);
+    color: white;
+    padding: 150px 0;
+    }
+    .catJump{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    width: 50%;
+}
+
     h1 {
       text-align: center;
       font-size: 2.2em;
@@ -17,7 +39,7 @@
     }
     h2 {
       margin-top: 40px;
-      color: #c94f7c;
+      color: #9b4819;
     }
     p {
       margin: 15px 0;
@@ -34,45 +56,4 @@
       color: #777;
     }
 
-    .myButtons{  
-      padding: 50px 20% 0 35%;
-    }
-    a{
-      text-decoration: none;
-      color: #ececec;
-    }
-.btnYes {
-  background-color: #2d7f2f;
-  font-family: "Verdana", sans-serif;
-  padding: 5px 10px;
-  font-size: 18px;
-  color: #ececec;
-  cursor: pointer;
-  width: fit-content;
-  user-select: none;
-  font-weight: 600;
-  border-radius: 5px;
-  touch-action: none;
-  position: relative;
-  border: none;
-}
-
-.btnNo {
-  background-color: #8d2c2c;
-  font-family: "Verdana", sans-serif;
-  padding: 5px 15px;
-  font-size: 18px;
-  color: #ececec;
-  cursor: pointer;
-  width: fit-content;
-  user-select: none;
-  /* display: flex; */
-  justify-content: center; 
-  margin: 0px 80px;
-  
-  font-weight: 600;
-  border-radius: 5px;
-  touch-action: none;
-  position: relative;
-  border: none;
-}
+   
